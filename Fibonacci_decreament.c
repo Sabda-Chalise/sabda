@@ -12,7 +12,7 @@ void main()
 		printf("%d\n",a);
 		i++;
 	}
-// claculating decreament
+// claculating decreament 21,19,17,15,.....1
 
 int ii;
 ii=21;
