@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	long int a,i=1,f=1;
+	printf("enter any number\n");
+	scanf("%ld",&a);
+	while(i<=a)
+	{
+	
+		f=f*i;
+		i++;
+
+	}
+	printf("factorial of %ld is %ld",a,f);
+	
+	getch();
+}
