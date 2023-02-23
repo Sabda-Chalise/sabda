@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int cons,cha=1,mul=1;
+	printf("enter any number\n");
+	scanf("%d",&cons);
+	while(cha<=10)
+	{
+		mul=cons*cha;
+		printf("%d * %d = %d\n",cons,cha,mul);
+		cha++;
+	}
+	getch();
+}
